@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="application" caption="msg://com.company.jmix15testanonymus/menu.application" insertBefore="administration">
+        <item id="anonymousScreen" screen="MainAnonymousScreen" caption="Info"/>
+        <item screen="User.browse" caption="msg://com.company.jmix15testanonymus.screen.user/UserBrowse.caption"/>
+        <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
+    </menu>
+
+
+
+</menu-config>
